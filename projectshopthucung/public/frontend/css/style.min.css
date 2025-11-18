@@ -16,7 +16,7 @@ a:hover {
 }
 
 .btn-maincolor{
-  background-color: var(--mainColor);
+  background-color: #003399;
   color: #fff;
 }
 .btn-maincolor:hover{
@@ -516,7 +516,7 @@ i.fa.fa-chevron-right.next.slick-arrow2 {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #ff4500; /* Màu sắc có thể thay đổi */
+  background-color: #003399; /* Màu sắc có thể thay đổi */
   color: #fff;
   padding: 4px 8px;
   font-size: 18px;
