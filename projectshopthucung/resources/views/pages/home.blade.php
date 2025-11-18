@@ -71,7 +71,7 @@
     </div>
 </div>
 
-<div class="banner">
+{{-- <div class="banner">
     <div class="body__mainTitle">
         <h2>Dịch vụ của chúng tôi</h2>
     </div>
@@ -102,7 +102,7 @@
         </div>
 
     </div>
-</div>
+</div> --}}
 
 <!-- Sản phẩm cho chó -->
 <div class="body">
