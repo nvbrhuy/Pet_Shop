@@ -550,7 +550,7 @@ i.fa.fa-chevron-right.next.slick-arrow2 {
 /* Định dạng cho giá mới */
 .product__pride-newPride {
   font-size: 18px;
-  color: #ff4500; /* Màu sắc có thể thay đổi */
+  color: #000000; /* Màu sắc có thể thay đổi */
   font-weight: bold;
 }
 
