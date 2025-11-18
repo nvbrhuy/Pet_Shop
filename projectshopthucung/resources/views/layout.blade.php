@@ -118,7 +118,7 @@
                 <div class="row text-start">
                     <!-- Brand Name -->
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase fw-bold mb-3 text-light">PetCare</h5>
+                        <h5 class="text-uppercase fw-bold mb-3 text-light">PETSHOP</h5>
                         <p>
                             Đặt dịch vụ chăm sóc thú cưng nhanh chóng với trải nghiệm tuyệt vời!
                         </p>
@@ -132,7 +132,7 @@
                                 <a href="/" class="text-white text-decoration-none">Trang chủ</a>
                             </li>
                             <li class="mb-2">
-                                <a href="/movies" class="text-white text-decoration-none">Dịch vụ tại PetCare</a>
+                                <a href="/movies" class="text-white text-decoration-none">Dịch vụ tại PETSHOP</a>
                             </li>
                             <li class="mb-2">
                                 <a href="/news" class="text-white text-decoration-none">Tin tức</a>
@@ -148,14 +148,13 @@
                         <h6 class="fw-bold mb-3 text-light">Hỗ trợ</h6>
                         <ul class="list-unstyled">
                             <li class="mb-2">
-                                <a href="/contact" class="text-white text-decoration-none">Liên hệ</a>
+                                <a href="/contact" class="text-white text-decoration-none">Liên hệ: 0357001738</a>
                             </li>
                             <li class="mb-2">
-                                <a href="/about" class="text-white text-decoration-none">Về chúng tôi</a>
+                                <a href="/about" class="text-white text-decoration-none">Zalo: 0357001738
+                                </a>
                             </li>
-                            <li>
-                                <a href="/privacy" class="text-white text-decoration-none">Chính sách bảo mật</a>
-                            </li>
+
                         </ul>
                     </div>
 
@@ -163,9 +162,9 @@
                     <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
                         <h6 class="fw-bold mb-3 text-light">Thông tin công ty</h6>
                         <p>
-                            CÔNG TY TNHH PETCARE<br>
+                            CÔNG TY TRÁCH NHIỆM HỮU HẠN 5 THÀNH VIÊN<br>
                             Số ĐKKD: 0317891234<br>
-                            Nơi cấp: Sở Kế hoạch và Đầu tư Tp. Hồ Chí Minh<br>
+                            Nơi cấp: Sở Kế hoạch và Đầu tư Tp. Đà Nẵng<br>
                             Ngày đăng ký: 15/06/2025<br>
                             Địa chỉ: 120 Hoàng Minh Thảo, Phường Hòa Khánh, Tp. Đà Nẵng
                         </p>
