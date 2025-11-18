@@ -13,7 +13,7 @@
 <div class="body">
 
     <div class="body__mainTitle">
-        <h2>Sản phẩm nổi bật</h2>
+        <h2 >Sản phẩm nổi bật</h2>
     </div>
 
     <div class="post-slider2">
@@ -259,7 +259,7 @@
 
 <div class="banner">
     <div class="banner-top">
-        <img src="{{ asset('frontend/img/BG-2.jpg')}}" />
+        <img  width= 300px height = auto src="{{ asset('frontend/img/BG-1.jpg')}}" />
     </div>
 </div>
 
@@ -591,7 +591,7 @@
             @endforeach
         </div>
         <center style="margin-top: 30px;">
-            <a href="{{route('viewAll')}}" class="btn text-white" style="background: #ff4500;">Xem thêm</a>
+            <a href="{{route('viewAll')}}" class="btn text-white" style="background: #003399;">Xem thêm</a>
         </center>
     </div>
 
