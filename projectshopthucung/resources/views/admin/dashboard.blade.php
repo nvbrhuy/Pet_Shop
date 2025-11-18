@@ -1,7 +1,7 @@
 @extends('admin_layout')
 @section('admin_content')
 <div class="container-fluid p-0">
-    <h1 class="h3 mb-3"><strong>Dashboard</strong></h1>
+    <h1 class="h3 mb-3"><strong>Bảng điều khiển</strong></h1>
 
     <div class="row">
       <div class="col-xl-12 col-xxl-12 d-flex">
@@ -12,7 +12,7 @@
                 <div class="card-body">
                   <div class="row">
                     <div class="col mt-0">
-                      <h5 class="card-title">Orders</h5>
+                      <h5 class="card-title">Đơn hàng</h5>
                     </div>
 
                     <div class="col-auto">
@@ -29,7 +29,7 @@
                     <span class="text-danger">
                       <i class="mdi mdi-arrow-bottom-right"></i> -2.25%
                     </span>
-                    <span class="text-muted">Since last week</span>
+                    <span class="text-muted">Từ tuần trước</span>
                   </div>
                 </div>
               </div>
@@ -39,7 +39,7 @@
                 <div class="card-body">
                   <div class="row">
                     <div class="col mt-0">
-                      <h5 class="card-title">Members</h5>
+                      <h5 class="card-title">Thành viên</h5>
                     </div>
 
                     <div class="col-auto">
@@ -56,7 +56,7 @@
                     <span class="text-success">
                       <i class="mdi mdi-arrow-bottom-right"></i> 5.25%
                     </span>
-                    <span class="text-muted">Since last week</span>
+                    <span class="text-muted">Từ tuần trước</span>
                   </div>
                 </div>
               </div>
@@ -66,7 +66,7 @@
                 <div class="card-body">
                   <div class="row">
                     <div class="col mt-0">
-                      <h5 class="card-title">Sales</h5>
+                      <h5 class="card-title">Việc bán hàng</h5>
                     </div>
 
                     <div class="col-auto">
@@ -83,7 +83,7 @@
                     <span class="text-danger">
                       <i class="mdi mdi-arrow-bottom-right"></i> -3.65%
                     </span>
-                    <span class="text-muted">Since last week</span>
+                    <span class="text-muted">Từ tuần trước</span>
                   </div>
                 </div>
               </div>
@@ -110,7 +110,7 @@
                     <span class="text-success">
                       <i class="mdi mdi-arrow-bottom-right"></i> 6.65%
                     </span>
-                    <span class="text-muted">Since last week</span>
+                    <span class="text-muted">Từ tuần trước</span>
                   </div>
                 </div>
               </div>
@@ -124,7 +124,7 @@
         <div class="col-12 col-lg-8 col-xxl-9 d-flex">
           <div class="card flex-fill">
             <div class="card-header">
-              <h5 class="card-title mb-0">Orders</h5>
+              <h5 class="card-title mb-0">Đơn hàng</h5>
             </div>
             <table class="table table-hover my-0">
               <thead>
@@ -183,7 +183,7 @@
         <div class="col-12 col-lg-4 col-xxl-3 d-flex">
           <div class="card flex-fill w-100">
             <div class="card-header">
-              <h5 class="card-title mb-0">Monthly Sales</h5>
+              <h5 class="card-title mb-0">Doanh số hàng tháng</h5>
             </div>
             <div class="card-body d-flex w-100">
               <div class="align-self-center chart chart-lg">
@@ -198,7 +198,7 @@
       <div class="col-12 col-md-6 col-xxl-3 d-flex order-2 order-xxl-3">
         <div class="card flex-fill w-100">
           <div class="card-header">
-            <h5 class="card-title mb-0">Browser Usage</h5>
+            <h5 class="card-title mb-0">Sử dụng trình duyệt</h5>
           </div>
           <div class="card-body d-flex">
             <div class="align-self-center w-100">
@@ -233,8 +233,8 @@
       >
         <div class="card flex-fill w-100">
             <div class="card-header">
-                <h5 class="card-title">Line Chart</h5>
-                <h6 class="card-subtitle text-muted">A line chart is a way of plotting data points on a line.</h6>
+                <h5 class="card-title">Biểu đồ đường</h5>
+                <h6 class="card-subtitle text-muted">Biểu đồ đường là cách biểu diễn các điểm dữ liệu trên một đường thẳng.</h6>
             </div>
             <div class="card-body">
                 <div class="chart">
@@ -243,10 +243,10 @@
             </div>
         </div>		
       </div>
-      <div class="col-12 col-md-6 col-xxl-3 d-flex order-1 order-xxl-1">
+      <div class="col-12 col-md-6 col-xxl-3 d-flex order-1 order-xxl-1 ">
         <div class="card flex-fill">
           <div class="card-header">
-            <h5 class="card-title mb-0">Calendar</h5>
+            <h5 class="card-title mb-0">Lịch</h5>
           </div>
           <div class="card-body d-flex">
             <div class="align-self-center w-100">
