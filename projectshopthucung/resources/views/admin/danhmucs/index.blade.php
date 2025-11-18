@@ -1,7 +1,7 @@
 @extends('admin_layout')
 @section('admin_content')
 
-<h1 class="h3 mb-3"><strong>Danh sách danh mục</strong></h1>
+<h1 style="font-size: 35px; font-weight:500;" class="h3 mb-3"><strong>Danh sách danh mục</strong></h1>
 
 <div class="">
   @if(session()->has('success'))
@@ -28,11 +28,11 @@
         <td>{{$danhmuc->id_danhmuc}}</td>
         <td>{{$danhmuc->ten_danhmuc}}</td>
         <td colspan="2">
-          <a href="{{ route('danhmuc.edit', ['danhmuc' => $danhmuc]) }}" class="btn btn-warning mb-2">Edit</a>
+          <a href="{{ route('danhmuc.edit', ['danhmuc' => $danhmuc]) }}" class="btn btn-warning mb-2">Sửa</a>
           <form method="post" action="{{route('danhmuc.destroy', ['danhmuc' => $danhmuc])}}">
               @csrf
               @method('delete')
-              <input type="submit" class="btn btn-danger" value="Delete"
+              <input type="submit" class="btn btn-danger" value="Xóa"
               onclick="return confirm('Bạn có chắc chắn muốn xóa danh mục này không?')">
           </form>
         </td>
