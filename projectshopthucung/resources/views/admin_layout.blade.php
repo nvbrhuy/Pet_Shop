@@ -40,11 +40,11 @@
       <nav id="sidebar" class="sidebar js-sidebar">
         <div class="sidebar-content js-simplebar">
           <a class="sidebar-brand" href="{{URL::to('/dashboard')}}">
-            <span class="align-middle">Shop thú cưng</span>
+            <span style="font-size: 25px; font-weight: 500;" class="align-middle">Shop thú cưng</span>
           </a>
 
           <ul class="sidebar-nav">
-            <li class="sidebar-header">Trang</li>
+            <li style="font-size: 16px; font-weight: 500;" class="sidebar-header">Trang</li>
         
             <li class="sidebar-item">
                 <a class="sidebar-link" href="{{URL::to('/dashboard')}}">
@@ -73,32 +73,6 @@
                     <span class="align-middle">Đơn hàng</span>
                 </a>
             </li>
-        
-            <li class="sidebar-header">Công cụ & Linh kiện</li>
-        
-            <li class="sidebar-item">
-                <a class="sidebar-link" href="ui-forms.html">
-                    <i class="align-middle" data-feather="check-square"></i>
-                    <span class="align-middle">Biểu mẫu</span>
-                </a>
-            </li>
-        
-            <li class="sidebar-item">
-                <a class="sidebar-link" href="icons-feather.html">
-                    <i class="align-middle" data-feather="coffee"></i>
-                    <span class="align-middle">Biểu tượng</span>
-                </a>
-            </li>
-        
-            <li class="sidebar-item">
-                <a class="sidebar-link" href="ui-buttons.html">
-                    <i class="align-middle" data-feather="coffee"></i>
-                    <span class="align-middle">Nút</span>
-                </a>
-            </li>
-        </ul>
-        
-
         </div>
       </nav>
 
@@ -128,23 +102,6 @@
                   </span>
                 </a>
                 <div class="dropdown-menu dropdown-menu-end">
-                  <a class="dropdown-item" href="pages-profile.html"
-                    ><i class="align-middle me-1" data-feather="user"></i>
-                    Profile</a
-                  >
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="index.html"
-                    ><i class="align-middle me-1" data-feather="settings"></i>
-                    Settings & Privacy</a
-                  >
-                  <a class="dropdown-item" href="#"
-                    ><i
-                      class="align-middle me-1"
-                      data-feather="help-circle"
-                    ></i>
-                    Help Center</a
-                  >
-                  <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="{{ URL::to('/admin_logout')}}"><i class="align-middle me-2" data-feather="log-out"></i> <span class="align-middle">log-out</span></a>
                 </div>
               </li>
@@ -157,69 +114,6 @@
             @yield('admin_content')
             
         </main>
-
-        <footer class="footer">
-          <div class="container-fluid">
-            <div class="row text-muted">
-              <div class="col-6 text-start">
-                <p class="mb-0">
-                  <a
-                    class="text-muted"
-                    href="https://Admin Dashboard.io/"
-                    target="_blank"
-                    ><strong>Admin Dashboard</strong></a
-                  >
-                  -
-                  <a
-                    class="text-muted"
-                    href="https://Admin Dashboard.io/"
-                    target="_blank"
-                    ><strong>Bootstrap Admin Template</strong></a
-                  >
-                  &copy;
-                </p>
-              </div>
-              <div class="col-6 text-end">
-                <ul class="list-inline">
-                  <li class="list-inline-item">
-                    <a
-                      class="text-muted"
-                      href="https://Admin Dashboard.io/"
-                      target="_blank"
-                      >Support</a
-                    >
-                  </li>
-                  <li class="list-inline-item">
-                    <a
-                      class="text-muted"
-                      href="https://Admin Dashboard.io/"
-                      target="_blank"
-                      >Help Center</a
-                    >
-                  </li>
-                  <li class="list-inline-item">
-                    <a
-                      class="text-muted"
-                      href="https://Admin Dashboard.io/"
-                      target="_blank"
-                      >Privacy</a
-                    >
-                  </li>
-                  <li class="list-inline-item">
-                    <a
-                      class="text-muted"
-                      href="https://Admin Dashboard.io/"
-                      target="_blank"
-                      >Terms</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </footer>
-      </div>
-    </div>
 
     <script src="{{ asset('backend/js/app.js')}}"></script>
 
