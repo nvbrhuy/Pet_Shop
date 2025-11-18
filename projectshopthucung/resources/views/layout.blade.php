@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quản lý cửa hàng thú cưng</title>
-    <link rel="shortcut icon" type="image/png" href="{{ asset('frontend/img/logo.jpg')}}"/>
+    <title>PetShop</title>
+    <link rel="shortcut icon" type="image/png" href="{{ asset('https://i.pinimg.com/originals/c7/c5/ee/c7c5ee9481e54ff75d26eb62e5d2e4d9.jpg')}}"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
@@ -21,7 +21,7 @@
 </head>
 <body>
     <div class="header">
-            
+
         <div class="navbar">
             <div class="navbar__left">
                 <a href="{{ URL::to('/')}}" class="navbar__logo">
@@ -71,15 +71,15 @@
                         <a href="{{ URL::to('login')}}"><i class="fa fa-user"></i> </a>
                     </div>
                 @endif
-            
+
                 <a href="{{ route('cart') }}" class="navbar__shoppingCart">
                     <img src="{{ asset('frontend/img/shopping-cart.svg')}}" style="width: 24px;" alt="">
-                    
+
                     @if (session('cart'))
                         <span>{{ count((array) session('cart')) }}</span>
                     @else
                         <span>0</span>
-                    
+
                     @endif
                 </a>
             </div>
@@ -103,7 +103,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="footer__info">
 
             <div class="footer__info-content">
@@ -131,7 +131,7 @@
             <center> 2022 All rights reserved.</center>
         </div>
     </footer>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script>
         //Slider using Slick
@@ -182,7 +182,7 @@
             ]
         });
     </script>
-    
+
     <script src="{{ asset('frontend/script/script.js') }}"></script>
 
 </body>
