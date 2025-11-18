@@ -1,7 +1,7 @@
 @extends('admin_layout')
 @section('admin_content')
 
-<h1 class="h3 mb-3"><strong>Danh sách đơn hàng</strong></h1>
+<h1 style="font-size: 35px; font-weight:500;" class="h3 mb-3"><strong>Danh sách đơn hàng</strong></h1>
 
 <div class="">
   @if(session()->has('success'))
@@ -58,7 +58,7 @@
           @endif
         </td>
         <td class="d-none d-md-table-cell">{{$order->diachigiaohang}}</td>
-        <td class="d-none d-md-table-cell"><a href="{{ route('orders.edit', ['orders' => $order->id_dathang]) }}" class="btn btn-primary">Edit</a></td>
+        <td class="d-none d-md-table-cell"><a href="{{ route('orders.edit', ['orders' => $order->id_dathang]) }}" class="btn btn-primary">Sửa</a></td>
       </tr>
       <tr>
       @endforeach
