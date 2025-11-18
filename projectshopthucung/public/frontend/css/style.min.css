@@ -669,7 +669,7 @@ i.fas.fa-chevron-up {
 .product__details-info > h3 {
   border-bottom: 1px solid #d9d9d9;
   padding-bottom: 20px;
-  color: var(--mainColor);
+  color: black;
 }
 .short-des {
     display: -webkit-box;
@@ -683,8 +683,8 @@ i.fas.fa-chevron-up {
 }
 .product__cart-add {
   padding: 16px 20px;
-  border: 1px solid var(--mainColor);
-  color: var(--mainColor);
+  border: 1px solid #003399;
+  color: #003399;
   margin-right: 10px;
   border-radius: 10px;
 }
@@ -712,7 +712,7 @@ i.fas.fa-chevron-up {
 }
 .buy_continute {
   text-decoration: none;
-  background-color: var(--mainColor);
+  background-color: #003399;
   border-radius: 5px;
   color: #fff;
   padding: 6px 12px;

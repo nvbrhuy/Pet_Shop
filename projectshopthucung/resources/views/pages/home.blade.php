@@ -31,7 +31,7 @@
                             </div>
                             <div class="product__sale">
                                 <div>
-                                    @if($sanpham->giamgia)
+                                    @if($sanpham->giamgia)  
                                         -{{$sanpham->giamgia}}%
                                     @else Mới
                                     @endif

@@ -24,7 +24,7 @@
                 <div class="product__details-info">
                     <h3 style="margin-top: unset; line-height: unset;">{{ $sanpham->tensp }}</h3>
                     <div class="short-des">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam sit aliquid debitis voluptates ducimus, quasi iusto nam quaerat eius quidem.
+                        Giống Mèo Ragdoll
     
                     </div><hr />
     
