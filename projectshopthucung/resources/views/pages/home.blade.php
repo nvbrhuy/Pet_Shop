@@ -88,25 +88,25 @@
 
     <div class="banner-top banner-top-2 row">
         <div class="col-md-3 col-sm-6">
-            <a href="#" class="banner-top-2-child" style="background-color: #5BAB7B;">
+            <a href="#" class="banner-top-2-child" style="background-color: #003399;">
                 <div class="text-white">Pet Store thú cưng</div>
             </a>
         </div>
 
         <div class="col-md-3 col-sm-6">
-            <a href="#" class="banner-top-2-child" style="background-color: #5C9CCA;">
+            <a href="#" class="banner-top-2-child" style="background-color: #003399;">
                 <div class="text-white" style="margin: 0 auto;">Pet Hotel khách sạn cho thú cưng</div>
             </a>
         </div>
 
         <div class="col-md-3 col-sm-6">
-            <a href="#" class="banner-top-2-child" style="background-color: #C67B36;">
+            <a href="#" class="banner-top-2-child" style="background-color: #003399;">
                 <div class="text-white" style="margin: 0 auto;">Pet Grooming spa dành cho thú cưng</div>
             </a>
         </div>
 
         <div class="col-md-3 col-sm-6">
-            <a href="#" class="banner-top-2-child" style="background-color: #AB5D58;">
+            <a href="#" class="banner-top-2-child" style="background-color: #003399;">
                 <div class="text-white">Sản phẩm độc quyền</div>
             </a>
         </div>
