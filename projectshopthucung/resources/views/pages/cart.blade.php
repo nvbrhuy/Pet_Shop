@@ -8,7 +8,7 @@
 }
 
 .quantity-btn {
-    background-color: #ff4500;
+    background-color: #003399;
     border: none;
     color: #fff;
     cursor: pointer;
