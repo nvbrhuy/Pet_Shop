@@ -1,9 +1,9 @@
 @extends('admin_layout')
 @section('admin_content')
 <div class="container-fluid p-0">
-    <h1 class="h3 mb-3"><strong>Bảng điều khiển</strong></h1>
+    <h1 style="font-size: 35px; font-weight:500;" class="h3 mb-3"><strong>Bảng điều khiển</strong></h1>
 
-    <div class="row">
+    <div style="background-color: #003399; padding-top: 25px;" class="row">
       <div class="col-xl-12 col-xxl-12 d-flex">
         <div class="w-100">
           <div class="row">
@@ -120,7 +120,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div style="background-color: #003399;" class="row">
         <div class="col-12 col-lg-8 col-xxl-9 d-flex">
           <div class="card flex-fill">
             <div class="card-header">
@@ -171,7 +171,7 @@
                     @endif
                   </td>
                   <td class="d-none d-md-table-cell">{{$order->diachigiaohang}}</td>
-                  <td class="d-none d-md-table-cell"><a href="{{ route('orders.edit', ['orders' => $order->id_dathang]) }}" class="btn btn-primary">Edit</a></td>
+                  <td class="d-none d-md-table-cell"><a href="{{ route('orders.edit', ['orders' => $order->id_dathang]) }}" class="btn btn-primary">Sửa</a></td>
                 </tr>
                 <tr>
                 @endforeach
@@ -194,7 +194,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div style="background-color: #003399;" class="row">
       <div class="col-12 col-md-6 col-xxl-3 d-flex order-2 order-xxl-3">
         <div class="card flex-fill w-100">
           <div class="card-header">

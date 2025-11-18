@@ -1,6 +1,6 @@
 @extends('admin_layout')
 @section('admin_content')
-<h1 class="h3 mb-3"><strong>Danh sách sản phẩm</strong></h1>
+<h1 style="font-size: 35px; font-weight:500;" class="h3 mb-3"><strong>Danh sách sản phẩm</strong></h1>
 
 <div class="">
     @if(session()->has('success'))
@@ -49,11 +49,11 @@
     </td>
     <td>{{$product->giakhuyenmai}}</td>
     <td colspan="2">
-        <a href="{{ route('product.edit', ['product' => $product]) }}" class="btn btn-warning mb-2">Edit</a>
+        <a href="{{ route('product.edit', ['product' => $product]) }}" class="btn btn-warning mb-2">Sửa</a>
         <form method="post" action="{{route('product.destroy', ['product' => $product])}}">
             @csrf
             @method('delete')
-            <input type="submit" class="btn btn-danger" value="Delete"
+            <input type="submit" class="btn btn-danger" value="Xóa"
             onclick="return confirm('Bạn có chắc chắn muốn xóa sản phẩm này không?')">
         </form>
     </td>
@@ -64,7 +64,7 @@
 <nav aria-label="Page navigation example">
   <ul class="pagination">
       <li class="page-item @if($products->currentPage() === 1) disabled @endif">
-          <a class="page-link" href="{{ $products->previousPageUrl() }}">Previous</a>
+          <a class="page-link" href="{{ $products->previousPageUrl() }}">lùi sau</a>
       </li>
       @for ($i = 1; $i <= $products->lastPage(); $i++)
           <li class="page-item @if($products->currentPage() === $i) active @endif">
@@ -72,7 +72,7 @@
           </li>
       @endfor
       <li class="page-item @if($products->currentPage() === $products->lastPage()) disabled @endif">
-          <a class="page-link" href="{{ $products->nextPageUrl() }}">Next</a>
+          <a class="page-link" href="{{ $products->nextPageUrl() }}">Kế tiếp</a>
       </li>
   </ul>
 </nav>

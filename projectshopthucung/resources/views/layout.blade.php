@@ -37,7 +37,7 @@
                             <a href="{{ URL::to('/services')}}">Dịch vụ</a>
                         </li>
                         <li>
-                            <a href="{{ URL::to('/donhang')}}">Đơn hàng</a>
+                            <a href="{{ URL::to('/donhang')}}">Sản Phẩm</a>
                         </li>
                     </ul>
                 </div>
@@ -112,6 +112,7 @@
 
 
 
+
             <!-- Navigation and Company Info -->
             <section>
                 <div class="row text-start">
@@ -178,6 +179,7 @@
             © 2025 PETCARE. All rights reserved.
         </div>
     </footer>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script>
