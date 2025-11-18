@@ -24,7 +24,7 @@
 
 
 <table class="table">
-<thead>
+<thead style="margin-top=30px;">
   <tr>
     <th>Tên sp</th>
     <th>Hình</th>
