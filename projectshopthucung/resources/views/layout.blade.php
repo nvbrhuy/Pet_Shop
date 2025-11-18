@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PetShop</title>
-    <link rel="shortcut icon" type="image/png" href="{{ asset('https://i.pinimg.com/originals/c7/c5/ee/c7c5ee9481e54ff75d26eb62e5d2e4d9.jpg')}}"/>
+    <title>Quản lý cửa hàng thú cưng</title>
+    <link rel="shortcut icon" type="image/png" href="{{ asset('frontend/img/logo.jpg')}}"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
@@ -21,7 +21,7 @@
 </head>
 <body>
     <div class="header">
-
+            
         <div class="navbar">
             <div class="navbar__left">
                 <a href="{{ URL::to('/')}}" class="navbar__logo">
@@ -71,15 +71,15 @@
                         <a href="{{ URL::to('login')}}"><i class="fa fa-user"></i> </a>
                     </div>
                 @endif
-
+            
                 <a href="{{ route('cart') }}" class="navbar__shoppingCart">
                     <img src="{{ asset('frontend/img/shopping-cart.svg')}}" style="width: 24px;" alt="">
-
+                    
                     @if (session('cart'))
                         <span>{{ count((array) session('cart')) }}</span>
                     @else
                         <span>0</span>
-
+                    
                     @endif
                 </a>
             </div>
@@ -92,94 +92,46 @@
 
     <div class="go-to-top"><i class="fas fa-chevron-up"></i></div>
 
-    <footer class="text-white text-center" style="background-color: #003399;">
-        <div class="container py-4">
-            <!-- Social Media Links -->
-            <section class="mb-4">
-                <a class="btn btn-outline-light btn-floating m-1" href="https://facebook.com" role="button" target="_blank">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com" role="button" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a class="btn btn-outline-light btn-floating m-1" href="https://instagram.com" role="button" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a class="btn btn-outline-light btn-floating m-1" href="https://linkedin.com" role="button" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-            </section>
-
-
-
-
-            <!-- Navigation and Company Info -->
-            <section>
-                <div class="row text-start">
-                    <!-- Brand Name -->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase fw-bold mb-3 text-light">PetShop</h5>
-                        <p>
-                            Đặt dịch vụ chăm sóc thú cưng nhanh chóng với trải nghiệm tuyệt vời!
-                        </p>
-                    </div>
-
-                    <!-- Navigation Links -->
-                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                        <h6 class="fw-bold mb-3 text-light">Điều hướng</h6>
-                        <ul class="list-unstyled">
-                            <li class="mb-2">
-                                <a href="/" class="text-white text-decoration-none">Trang chủ</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="/movies" class="text-white text-decoration-none">Dịch vụ tại PetCare</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="/news" class="text-white text-decoration-none">Tin tức</a>
-                            </li>
-                            <li>
-                                <a href="/promotions" class="text-white text-decoration-none">Khuyến mãi</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Support Links -->
-                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                        <h6 class="fw-bold mb-3 text-light">Hỗ trợ</h6>
-                        <ul class="list-unstyled">
-                            <li class="mb-2">
-                                <a href="/contact" class="text-white text-decoration-none">Liên hệ</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="/about" class="text-white text-decoration-none">Về chúng tôi</a>
-                            </li>
-                            <li>
-                                <a href="/privacy" class="text-white text-decoration-none">Chính sách bảo mật</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Company Info -->
-                    <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
-                        <h6 class="fw-bold mb-3 text-light">Thông tin công ty</h6>
-                        <p>
-                            CÔNG TY TNHH PETSHOP<br>
-                            Số ĐKKD: 0317891234<br>
-                            Nơi cấp: Sở Kế hoạch và Đầu tư Thành Phố Đà Nẵng<br>
-                            Ngày đăng ký: 20/10/2025<br>
-                            Địa chỉ: 120 Hoàng Minh Thảo, Phường Hòa Khánh, Tp. Đà Nẵng
-                        </p>
-                    </div>
+    <footer>
+        <div class="footer">
+            <div class="footer__title">
+                <span>Liên hệ</span>
+                <div class="footer__social">
+                    <a href="facebook.com/trieuetam" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-google"></i></a>
                 </div>
-            </section>
+            </div>
+        </div>
+        
+        <div class="footer__info">
+
+            <div class="footer__info-content">
+                <h3>Giới thiệu</h3>
+                <p>Website quản lý, mua bán thú cưng</p>
+            </div>
+
+
+
+            <div class="footer__info-content">
+                <h3>Liên hệ</h3>
+                <p>Địa chỉ: 561 Su Van Hanh StreetWard 13, District 10</p>
+                <p>Email: trieuetam@gmail.com</p>
+                <p>Sđt: 123456789</p>
+            </div>
+
+            <div class="footer__info-content">
+                <h3>Fanpage</h3>
+                <p><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FC%25E1%25BB%25ADa-h%25C3%25A0ng-S%25E1%25BA%25A3n-ph%25E1%25BA%25A9m-D%25C3%25A0nh-cho-Th%25C3%25BA-C%25C6%25B0ng-100178969197228%2F%3Fref%3Dpages_you_manage&tabs=timeline&width=300px&height=150px&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="150px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></p>
+            </div>
+
         </div>
 
-        <!-- Copyright -->
-        <div class="text-center p-3 bg-black">
-            © 2025 PETSHOP. All rights reserved.
+        <div class="footer__copyright">
+            <center> 2022 All rights reserved.</center>
         </div>
     </footer>
-
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script>
         //Slider using Slick
@@ -230,7 +182,7 @@
             ]
         });
     </script>
-
+    
     <script src="{{ asset('frontend/script/script.js') }}"></script>
 
 </body>
