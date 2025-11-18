@@ -690,7 +690,7 @@ i.fas.fa-chevron-up {
 }
 .product__cart-buy {
   padding: 16px 20px;
-  background-color: var(--mainColor);
+  background-color: #003399;
   color: #fff;
   border-radius: 10px;
   text-decoration: none;
