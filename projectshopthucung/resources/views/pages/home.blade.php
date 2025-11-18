@@ -23,7 +23,7 @@
 <div class="body">
 
     <div class="body__mainTitle">
-        <h2>Sản phẩm nổi bật aaaa</h2>
+        <h2>Sản phẩm nổi bật</h2>
     </div>
 
     <div class="post-slider2">
