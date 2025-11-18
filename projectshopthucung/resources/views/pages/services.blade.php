@@ -79,7 +79,7 @@
                 </h3>
                 <p>Với mong muốn được trở thành ngôi nhà thứ hai của thú cưng, Petstore mang đến những dịch vụ lẫn sản phẩm cần thiết nhất mà mọi người bạn dễ thương này.</p>
 
-                <button class="btn btn-danger mt-5 modal-toggle">Xem thêm!</button>
+                <button class="btn btn-primary mt-5 modal-toggle">Xem thêm!</button>
 
             </div>
         </div>
@@ -87,7 +87,7 @@
 
     <div class="row">
         <div class="col-lg-4" style="padding: 15px!important;">
-            <div style="background-color: #2885BA" class="service-list__content-box">
+            <div style="background-color: #003399" class="service-list__content-box">
                 <img src="{{ asset('frontend/img/svmeo.jpg')}}" alt="">
                 <h3 class="h1-title">
                     1. PET STORE - NƠI CHĂM SÓC THÚ CƯNG CHẤT LƯỢNG!
@@ -101,7 +101,7 @@
             </div>
         </div>
         <div class="col-lg-4" style="padding: 15px!important;">
-            <div style="background-color: #B56256" class="service-list__content-box">
+            <div style="background-color: #003399" class="service-list__content-box">
                 <img src="{{ asset('frontend/img/svmeo2.jpg')}}" alt="">
                 <h3 class="h1-title">
                     2. PET STORE - NƠI CUNG CẤP THỨC ĂN, CÁT VỆ SINH,... CHẤT LƯỢNG NHẤT!
@@ -117,7 +117,7 @@
             </div>
         </div>
         <div class="col-lg-4" style="padding: 15px!important;">
-            <div style="background-color: #5C9CCA" class="service-list__content-box">
+            <div style="background-color: #003399" class="service-list__content-box">
                 <img src="{{ asset('frontend/img/svmeo3.jpg')}}" alt="">
                 <h3 class="h1-title">
                     3. CUNG CẤP CÁC DỊCH VỤ SPA, TẮM RỬA,... CHẤT LƯỢNG NHẤT!

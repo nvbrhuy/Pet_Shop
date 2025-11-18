@@ -44,56 +44,56 @@
           </a>
 
           <ul class="sidebar-nav">
-            <li class="sidebar-header">Pages</li>
+            <li class="sidebar-header">Trang</li>
         
             <li class="sidebar-item">
                 <a class="sidebar-link" href="{{URL::to('/dashboard')}}">
                     <i class="align-middle" data-feather="sliders"></i>
-                    <span class="align-middle">Dashboard</span>
+                    <span class="align-middle">Bảng điều khiển</span>
                 </a>
             </li>
         
             <li class="sidebar-item">
                 <a class="sidebar-link" href="{{URL::to('/admin/product')}}">
                     <i class="align-middle" data-feather="box"></i>
-                    <span class="align-middle">Products</span>
+                    <span class="align-middle">Các sản phẩm</span>
                 </a>
             </li>
         
             <li class="sidebar-item">
                 <a class="sidebar-link" href="{{URL::to('/admin/danhmuc')}}">
                     <i class="align-middle" data-feather="tag"></i>
-                    <span class="align-middle">Categories</span>
+                    <span class="align-middle">Thể loại</span>
                 </a>
             </li>
         
             <li class="sidebar-item">
                 <a class="sidebar-link" href="{{URL::to('/admin/orders')}}">
                     <i class="align-middle me-2" data-feather="package"></i>
-                    <span class="align-middle">Orders</span>
+                    <span class="align-middle">Đơn hàng</span>
                 </a>
             </li>
         
-            <li class="sidebar-header">Tools & Components</li>
+            <li class="sidebar-header">Công cụ & Linh kiện</li>
         
             <li class="sidebar-item">
                 <a class="sidebar-link" href="ui-forms.html">
                     <i class="align-middle" data-feather="check-square"></i>
-                    <span class="align-middle">Forms</span>
+                    <span class="align-middle">Biểu mẫu</span>
                 </a>
             </li>
         
             <li class="sidebar-item">
                 <a class="sidebar-link" href="icons-feather.html">
                     <i class="align-middle" data-feather="coffee"></i>
-                    <span class="align-middle">Icons</span>
+                    <span class="align-middle">Biểu tượng</span>
                 </a>
             </li>
         
             <li class="sidebar-item">
                 <a class="sidebar-link" href="ui-buttons.html">
                     <i class="align-middle" data-feather="coffee"></i>
-                    <span class="align-middle">Button</span>
+                    <span class="align-middle">Nút</span>
                 </a>
             </li>
         </ul>

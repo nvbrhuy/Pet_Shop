@@ -3,7 +3,7 @@
 <!--Main-->
 <div class="login-form" style="height: unset !important; margin-top: -105px!important;">
     <div class="main" style="padding-top: 180px; padding-bottom: 15px; margin-bottom: 0;">
-        
+
         @if(Session::has('thongbao'))
             <div class="alert alert-success" role="alert">
                 {{Session::get('thongbao')}}
@@ -13,9 +13,10 @@
         <form action="{{route('register')}}" method="POST" class="form" style="width: 400px;" id="form-1">
         @csrf
 
-            <h3 class="heading">Đăng ký tài khoản</h3>
+           <h3 class="text-uppercase ">Đăng ký tài khoản <b class="text-primary">PETSHOP</b>
+                                    </h3>
             <div class="dont-have-account">
-                Bạn đã có tài khoản? <a class="account-register" href="{{ URL::to('login')}}">Đăng nhập</a>
+                Bạn đã có tài khoản? <a class="account-primary" href="{{ URL::to('login')}}">Đăng nhập</a>
             </div>
 
             <div class="spacer"></div>
@@ -67,7 +68,7 @@
                 </div>
             </div>
 
-            <button type="submit" value="Create" class="form-submit" name="register_submit">Đăng ký</button>
+            <button  type="submit" value="Create" class="form-submit" name="register_submit">Đăng ký</button>
 
         </form>
     </div>
