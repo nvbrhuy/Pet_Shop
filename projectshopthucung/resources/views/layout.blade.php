@@ -90,29 +90,8 @@
     <!-- Content -->
     @yield('content')
 
-    <div class="go-to-top"><i class="fas fa-chevron-up"></i></div>
-
     <footer class="text-white text-center" style="background-color: #003399;">
         <div class="container py-4">
-            <!-- Social Media Links -->
-            <section class="mb-4">
-                <a class="btn btn-outline-light btn-floating m-1" href="https://facebook.com" role="button" target="_blank">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com" role="button" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a class="btn btn-outline-light btn-floating m-1" href="https://instagram.com" role="button" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a class="btn btn-outline-light btn-floating m-1" href="https://linkedin.com" role="button" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-            </section>
-
-
-
-
             <!-- Navigation and Company Info -->
             <section>
                 <div class="row text-start">
@@ -130,15 +109,6 @@
                         <ul class="list-unstyled">
                             <li class="mb-2">
                                 <a href="/" class="text-white text-decoration-none">Trang chủ</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="/movies" class="text-white text-decoration-none">Dịch vụ tại PETSHOP</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="/news" class="text-white text-decoration-none">Tin tức</a>
-                            </li>
-                            <li>
-                                <a href="/promotions" class="text-white text-decoration-none">Khuyến mãi</a>
                             </li>
                         </ul>
                     </div>
@@ -163,8 +133,6 @@
                         <h6 class="fw-bold mb-3 text-light">Thông tin công ty</h6>
                         <p>
                             CÔNG TY TRÁCH NHIỆM HỮU HẠN 5 THÀNH VIÊN<br>
-                            Số ĐKKD: 0317891234<br>
-                            Nơi cấp: Sở Kế hoạch và Đầu tư Tp. Đà Nẵng<br>
                             Ngày đăng ký: 15/06/2025<br>
                             Địa chỉ: 120 Hoàng Minh Thảo, Phường Hòa Khánh, Tp. Đà Nẵng
                         </p>
@@ -173,10 +141,6 @@
             </section>
         </div>
 
-        <!-- Copyright -->
-        <div class="text-center p-3 bg-black">
-            © 2025 PETCARE. All rights reserved.
-        </div>
     </footer>
 
 
