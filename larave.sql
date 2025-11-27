@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 18, 2025 at 09:19 AM
+-- Generation Time: Nov 27, 2025 at 07:10 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -49,7 +49,8 @@ INSERT INTO `chitiet_donhang` (`id_ctdonhang`, `tensp`, `soluong`, `giamgia`, `g
 (3, 'Chó chihuahua', 1, 0, 20000, 20000, 5, 3, 2),
 (4, 'Cheems', 1, 0, 20000, 72000, 4, 4, 2),
 (5, 'Bánh Gặm Cho Chó – Smoked Beefy Dental Bone -14g', 1, 0, 20000, 20000, 6, 10, 2),
-(6, 'Pate Cho Mèo – Pate Fit4 Cats -Cá Ngừ Và Thanh Cua 160g', 1, 0, 20000, 72000, 2, 11, 2);
+(6, 'Pate Cho Mèo – Pate Fit4 Cats -Cá Ngừ Và Thanh Cua 160g', 1, 0, 20000, 72000, 2, 11, 2),
+(7, 'Chó chihuahua', 2, 0, 20000, 20000, 5, 12, 4);
 
 -- --------------------------------------------------------
 
@@ -98,16 +99,17 @@ CREATE TABLE `dathang` (
 
 INSERT INTO `dathang` (`id_dathang`, `ngaydathang`, `ngaygiaohang`, `tongtien`, `phuongthucthanhtoan`, `diachigiaohang`, `trangthai`, `id_kh`) VALUES
 (1, '2024-05-04 02:56:18', NULL, 72000, 'COD', NULL, 'đang xử lý', 1),
-(2, '2024-05-04 02:56:32', '2024-05-04 00:00:00', 72000, 'VNPAY', 'Đống Đa, Hà nội', 'giao thành công', 1),
+(2, '2024-05-04 02:56:32', '2024-05-04 00:00:00', 72000, 'COD', 'Đống Đa, Hà nội', 'giao thành công', 1),
 (3, '2025-11-11 07:29:32', NULL, 20000, 'COD', NULL, 'đang xử lý', 2),
-(4, '2025-11-11 07:58:00', NULL, 72000, 'VNPAY', 'Đống Đa, Hà nội', 'đang xử lý', 2),
+(4, '2025-11-11 07:58:00', NULL, 72000, 'COD', 'Đống Đa, Hà nội', 'đang xử lý', 2),
 (5, '2025-11-11 08:09:13', NULL, 72000, 'COD', 'Đống Đa, Hà nội', 'đang xử lý', 2),
 (6, '2025-11-11 08:09:21', NULL, 72000, 'COD', 'Đống Đa, Hà nội', 'đang xử lý', 2),
-(7, '2025-11-11 08:09:28', NULL, 72000, 'VNPAY', 'Đống Đa, Hà nội', 'đang xử lý', 2),
+(7, '2025-11-11 08:09:28', NULL, 72000, 'COD', 'Đống Đa, Hà nội', 'đang xử lý', 2),
 (8, '2025-11-11 08:10:53', NULL, 0, 'COD', 'Đống Đa, Hà nội', 'đang xử lý', 2),
 (9, '2025-11-11 08:11:00', NULL, 0, 'COD', 'Đống Đa, Hà nội', 'đang xử lý', 2),
 (10, '2025-11-11 08:11:24', NULL, 20000, 'COD', 'Đống Đa, Hà nội', 'đang xử lý', 2),
-(11, '2025-11-14 07:08:06', NULL, 72000, 'COD', 'Đống Đa, Hà nội', 'đang xử lý', 2);
+(11, '2025-11-14 07:08:06', NULL, 72000, 'COD', 'Đống Đa, Hà nội', 'đang xử lý', 2),
+(12, '2025-11-18 09:06:21', NULL, 40000, 'COD', NULL, 'đang xử lý', 4);
 
 -- --------------------------------------------------------
 
@@ -130,10 +132,11 @@ CREATE TABLE `khachhang` (
 --
 
 INSERT INTO `khachhang` (`id_kh`, `hoten`, `email`, `password`, `diachi`, `sdt`, `id_phanquyen`) VALUES
-(1, 'teo', 'teo@gmail.com', '$2y$12$o42vmZrn2TzpqtP0NJ/VyOd0qgv2coPm76eyZ/ZNwUgBHNUUW6H2y', 'Đống Đa, Hà nội', '379487241', 2),
-(2, 'admin', 'admin@gmail.com', '$2y$12$JjPydOKxMwUUQWS2bG5ZJOTO7m0gwYnyF4umA4OMU.NtDzvBoMbim', 'Đống Đa, Hà nội', '379487352', 1),
-(3, 'danh', 'trandanh111@gmail.com', '$2y$12$8313H5zGkvmMuywH6YA17.zC0Q/OGnjYpAGncv.Nw4GCj3Tmb.Dwa', 'vietnam', '12341541414', 2),
-(4, 'nghiangu', 'nghiangu@gmail.com', '$2y$12$5mWyyW6VK4EvKml4VFdFJOSd1bZPB/x3NyeMcv6w/WD51Jh0kkCYW', '88 nguyen binh', '12121212121', 2);
+(1, 'teo', 'teo@gmail.com', '123', 'Đống Đa, Hà nội', '379487241', 2),
+(2, 'admin', 'admin@gmail.com', '123', 'Đống Đa, Hà nội', '379487352', 1),
+(3, 'danh', 'trandanh111@gmail.com', '123', 'vietnam', '12341541414', 2),
+(5, 'danh123', 'trandanh1111@gmail.com', '123', 'vietnam', '12341541414', 2),
+(6, 'danh12345', 'trandanh1111111@gmail.com', '123', 'vietnam', '12341541414', 2);
 
 -- --------------------------------------------------------
 
@@ -298,7 +301,7 @@ ALTER TABLE `sanpham`
 -- AUTO_INCREMENT for table `chitiet_donhang`
 --
 ALTER TABLE `chitiet_donhang`
-  MODIFY `id_ctdonhang` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id_ctdonhang` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `danhmuc`
@@ -310,13 +313,13 @@ ALTER TABLE `danhmuc`
 -- AUTO_INCREMENT for table `dathang`
 --
 ALTER TABLE `dathang`
-  MODIFY `id_dathang` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id_dathang` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `khachhang`
 --
 ALTER TABLE `khachhang`
-  MODIFY `id_kh` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id_kh` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `migrations`
