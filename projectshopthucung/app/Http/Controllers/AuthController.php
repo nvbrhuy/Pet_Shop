@@ -19,7 +19,7 @@ class AuthController extends Controller
         $kh = new Khachhang();
         $kh->hoten = $request->name;
         $kh->email = $request->email;
-        $kh->password = Hash::make($request->password);
+        $kh->password = $request->password;
         $kh->diachi = $request->address;
         $kh->sdt = $request->phone;
         $kh->id_phanquyen = 2;
@@ -28,16 +28,16 @@ class AuthController extends Controller
     }
 
     public function loginPost(Request $request){
-        $credetials = [
-            'email' => $request->email,
-            'password' => $request->password
-        ];
-
-        if(Auth::attempt($credetials)){
+        // Tìm user theo email
+        $user = Khachhang::where('email', $request->email)->first();
+        // Kiểm tra tồn tại + mật khẩu đúng (so sánh text thô)
+        if ($user && $user->password === $request->password) {
+            // Đăng nhập
+            Auth::login($user);
             return redirect('/')->with('thongbao', 'Đăng nhập thành công');
         }
-
-        return back()->with('error', 'Sai tên tài khoản hoặc mật khẩu');
+        // Sai email hoặc mật khẩu
+        return back()->withErrors(['error' => 'Sai email hoặc mật khẩu']);
     }
 
     public function logout(){

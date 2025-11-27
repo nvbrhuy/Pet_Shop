@@ -14,16 +14,18 @@ use Illuminate\Support\Facades\Auth;
 class AdminRepository implements IAdminRepository{
 
     public function signIn($data){
-        $credetials = [
-            'email' => $data->email,
-            'password' => $data->password
-        ];
+    $user = Khachhang::where('email', $data->email)->first();
 
-        if(Auth::attempt($credetials)){
+    if ($user && $user->password === $data->password) {
+        
+        if ($user->id_phanquyen == 1) {
+            Auth::login($user);
             return redirect('/dashboard');
+        } else {
+            return back()->with('thongbao', 'Bạn không có quyền truy cập khu vực Admin!');
         }
-
-        return back()->with('thongbao', 'Sai tên tài khoản hoặc mật khẩu');
+    }
+    return back()->with('thongbao', 'Sai email hoặc mật khẩu');
 
     }
     public function logOut(){
