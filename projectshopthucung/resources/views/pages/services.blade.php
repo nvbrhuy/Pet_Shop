@@ -46,7 +46,7 @@
                 </div>
 
             </h1>
-            <img src="{{ asset('frontend/img/banner_5-scaled.jpg')}}" alt="">
+            <img src="{{ asset('frontend\img\BG-3.jpg')}}" alt="">
         </div>
     </div>
 
@@ -72,7 +72,7 @@
 
 <div class="body">
     <div class="container-fluid" style="padding: 0!important;">
-        <div style="background-image: url('frontend/img/bg_7.jpg')" class="service-banner">
+        <div style="background-image: url('frontend/img/admi.jpg')" class="service-banner">
             <div class="boxservice">
                 <h3 class="h1-title">
                     PetStore CHĂM SÓC TOÀN DIỆN, “THIÊN ĐƯỜNG" CỦA THÚ CƯNG!
@@ -139,7 +139,7 @@
         </div>
 
         <div class="d-flex justify-content-center align-items-center">
-            <img class="banner-service" src="{{ asset('frontend/img/svbg.jpg')}}" alt="">
+            <img class="banner-service" src="{{ asset('frontend\img\BG-3.jpg')}}" alt="">
 
         </div>
     </div>

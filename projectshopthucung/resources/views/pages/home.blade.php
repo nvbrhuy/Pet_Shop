@@ -420,7 +420,7 @@
 
     <div class="row banner-top">
         <img class="col-md-4 col-sm-6" src="{{ asset('frontend/img/BG-1.jpg')}}" />
-        <img class="col-md-4 col-sm-6" src="{{ asset('frontend/img/BG-2.jpg')}}" />
+        <img class="col-md-4 col-sm-6" src="{{ asset('frontend/img/admi.jpg')}}" />
         <img class="col-md-4 col-sm-6" src="{{ asset('frontend/img/BG-3.jpg')}}" />
     </div>
 </div>

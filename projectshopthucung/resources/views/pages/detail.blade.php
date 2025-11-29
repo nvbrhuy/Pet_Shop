@@ -13,12 +13,6 @@
                     <div class="big-img">
                         <img src="{{ asset($sanpham->anhsp) }}" alt="" id="zoom" style="visibility: visible;">
                     </div>
-                    {{-- <div class="small-img d-flex mt-2">
-                            <img src="./img/dohop.jpg" onerror="this.onerror=null; this.src='https://i.pinimg.com/originals/ae/4c/9e/ae4c9ea2edf887f6ad1e4e63cfae05b0.jpg'" class="small-imgg" alt="">
-                            <img src="./img/dohop.jpg" onerror="this.onerror=null; this.src='https://i.pinimg.com/originals/ae/4c/9e/ae4c9ea2edf887f6ad1e4e63cfae05b0.jpg'" class="small-imgg" alt="">
-                            <img src="./img/dohop.jpg" onerror="this.onerror=null; this.src='https://i.pinimg.com/originals/ae/4c/9e/ae4c9ea2edf887f6ad1e4e63cfae05b0.jpg'" class="small-imgg" alt="">
-                            <img src="./img/dohop.jpg" onerror="this.onerror=null; this.src='https://i.pinimg.com/originals/ae/4c/9e/ae4c9ea2edf887f6ad1e4e63cfae05b0.jpg'" class="small-imgg" alt="">
-                    </div> --}}
                 </div>
     
                 <div class="product__details-info">
@@ -84,48 +78,6 @@
             <h2>MÔ TẢ SẢN PHẨM</h2>
         </div>
             {{$sanpham->mota}}    
-        <hr />
-    
-        <!--Bình luận sản phẩm-->
-        <div class="body__mainTitle">
-            <h2>BÌNH LUẬN</h2>
-        </div>
-        <div>
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="d-flex">
-                    <img src="{{ asset('frontend/img/user.jpg')}}" width="45" height="45" style="border-radius: 50%;" />
-                    <div class="pl-3">
-                        <b>Nguyen van a</b>
-                        <div style="line-height: 30px;">san pha mdung dc</div>
-                        <div>22/01/2022</div>
-                    </div>
-                </div>
-               
-            </div>
-    
-            <hr />
-        </div>
-    
-        <div class="d-flex justify-content-between align-items-center">
-            <div>Nội dung</div>
-            <div class="d-flex align-items-center">
-                <input type="hidden" id="rating" name="rating" value="0" />
-            </div>
-        </div>
-        <textarea name="content" class="form-control" style="outline: none; margin-bottom: 5px;"></textarea>
-        <div>
-    
-            <input class="btn btn-maincolor" type="submit" value="Gửi" />
-    
-            <input data-val="true"
-                   data-val-number="The field id_sp must be a number."
-                   data-val-required="The id_sp field is required."
-                   id="id_sp"
-                   name="id_sp"
-                   type="hidden"
-                   value="0" />
-    
-        </div>
     <hr>
         <!-- Sản phẩm ngẫu nhiên -->
         <div class="body__mainTitle">
