@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 27, 2025 at 07:10 PM
+-- Generation Time: Dec 02, 2025 at 05:29 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -50,7 +50,9 @@ INSERT INTO `chitiet_donhang` (`id_ctdonhang`, `tensp`, `soluong`, `giamgia`, `g
 (4, 'Cheems', 1, 0, 20000, 72000, 4, 4, 2),
 (5, 'Bánh Gặm Cho Chó – Smoked Beefy Dental Bone -14g', 1, 0, 20000, 20000, 6, 10, 2),
 (6, 'Pate Cho Mèo – Pate Fit4 Cats -Cá Ngừ Và Thanh Cua 160g', 1, 0, 20000, 72000, 2, 11, 2),
-(7, 'Chó chihuahua', 2, 0, 20000, 20000, 5, 12, 4);
+(7, 'Chó chihuahua', 2, 0, 20000, 20000, 5, 12, 4),
+(8, 'Pate Cho Mèo', 1, 0, 20000, 72000, 2, 13, 3),
+(9, 'Chó Bull', 1, 0, 72000, 72000, 3, 13, 3);
 
 -- --------------------------------------------------------
 
@@ -109,7 +111,8 @@ INSERT INTO `dathang` (`id_dathang`, `ngaydathang`, `ngaygiaohang`, `tongtien`, 
 (9, '2025-11-11 08:11:00', NULL, 0, 'COD', 'Đống Đa, Hà nội', 'đang xử lý', 2),
 (10, '2025-11-11 08:11:24', NULL, 20000, 'COD', 'Đống Đa, Hà nội', 'đang xử lý', 2),
 (11, '2025-11-14 07:08:06', NULL, 72000, 'COD', 'Đống Đa, Hà nội', 'đang xử lý', 2),
-(12, '2025-11-18 09:06:21', NULL, 40000, 'COD', NULL, 'đang xử lý', 4);
+(12, '2025-11-18 09:06:21', NULL, 40000, 'COD', NULL, 'đang xử lý', 4),
+(13, '2025-11-29 16:04:47', NULL, 144000, 'COD', NULL, 'đang xử lý', 3);
 
 -- --------------------------------------------------------
 
@@ -301,7 +304,7 @@ ALTER TABLE `sanpham`
 -- AUTO_INCREMENT for table `chitiet_donhang`
 --
 ALTER TABLE `chitiet_donhang`
-  MODIFY `id_ctdonhang` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id_ctdonhang` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `danhmuc`
@@ -313,7 +316,7 @@ ALTER TABLE `danhmuc`
 -- AUTO_INCREMENT for table `dathang`
 --
 ALTER TABLE `dathang`
-  MODIFY `id_dathang` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id_dathang` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `khachhang`
