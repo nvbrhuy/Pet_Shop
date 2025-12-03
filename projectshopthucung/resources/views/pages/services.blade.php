@@ -79,7 +79,7 @@
                 </h3>
                 <p>Với mong muốn được trở thành ngôi nhà thứ hai của thú cưng, Petstore mang đến những dịch vụ lẫn sản phẩm cần thiết nhất mà mọi người bạn dễ thương này.</p>
 
-                <button class="btn btn-primary mt-5 modal-toggle">Xem thêm!</button>
+                {{-- <button class="btn btn-primary mt-5 modal-toggle">Xem thêm!</button> --}}
 
             </div>
         </div>
