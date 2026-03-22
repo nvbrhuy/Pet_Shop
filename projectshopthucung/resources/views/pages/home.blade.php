@@ -4,7 +4,7 @@
 <div class="post-slider">
     <div class="post-wrapper">
         <div class="post">
-            <img src="{{ asset('frontend/img/BG-1.jpg')}}" alt="">
+            <img src="{{ asset('frontend\img\bg_7.jpg')}}" alt="">
         </div>
     </div>
 
